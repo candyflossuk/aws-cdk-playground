@@ -26,8 +26,7 @@ activate the virtual environment
 change the instantiation in app.py to
 `HelloCdkStack(app, "HelloCdkStack")`
 
-add the resources required in place of the comment
-
+add the resources required in place of the comment generated within __init__
 `cdk synth`
 
 `cdk deploy`
